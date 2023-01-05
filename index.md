@@ -4,11 +4,9 @@ Hi 👋 My name is Behruz
 Data Scientist and Sociologist
 ------------------------------
 
-I am a data scientist and sociologist with a passion for natural language processing (NLP). With a background in both fields, I have a unique perspective on how to approach and analyze data, and I am always eager to learn and apply new techniques to solve complex problems. 
+I am a data scientist and sociologist who is enthusiastic about natural language processing (NLP). With a background in both areas, I have a special perspective on data analysis and am always eager to learn and utilize new techniques to solve complex issues. 
 
-I am skilled in programming languages such as Python. In addition to my technical skills, I also have a strong foundation in sociology and am interested in understanding how social dynamics and patterns can be uncovered through data.
-
-As I continue to learn and grow as a data scientist and sociologist, I am excited to see how NLP will play a role in my work and am eager to explore new applications and challenges in this field.
+I am proficient in programming languages like Python, and I have a strong understanding of sociology. I am curious about how data can uncover social dynamics and patterns. As I continue to grow and learn in my roles as a data scientist and sociologist, I am excited to see how NLP will be used in my work and to discover new opportunities and challenges in the field.
 
 * 🌍  I'm based in Ontario, Canada
 * 🖥️  See my portfolio at [github](https://github.com/davletovb)
