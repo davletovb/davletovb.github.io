@@ -8,10 +8,10 @@ I am a data scientist and sociologist who is enthusiastic about natural language
 
 I am proficient in programming languages like Python, and I have a strong understanding of sociology. I am curious about how data can uncover social dynamics and patterns. As I continue to grow and learn in my roles as a data scientist and sociologist, I am excited to see how NLP will be used in my work and to discover new opportunities and challenges in the field.
 
-* 🌍  I'm based in Ontario, Canada
-* 🖥️  See my portfolio at [github](https://github.com/davletovb)
-* ✉️  You can contact me at [hi@behruz.me](mailto:hi@behruz.me)
-* 🧠  I'm learning NLP
+🌍  I'm based in Ontario, Canada
+🖥️  See my portfolio at [github](https://github.com/davletovb)
+✉️  You can contact me at [hi@behruz.me](mailto:hi@behruz.me)
+🧠  I'm learning NLP
 
 ### Skills
 
