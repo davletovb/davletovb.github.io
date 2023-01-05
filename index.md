@@ -11,7 +11,7 @@ I am skilled in programming languages such as Python. In addition to my technica
 As I continue to learn and grow as a data scientist and sociologist, I am excited to see how NLP will play a role in my work and am eager to explore new applications and challenges in this field.
 
 * 🌍  I'm based in Ontario, Canada
-* 🖥️  See my portfolio at [behruz.me](http://behruz.me)
+* 🖥️  See my portfolio at [github](https://github.com/davletovb)
 * ✉️  You can contact me at [hi@behruz.me](mailto:hi@behruz.me)
 * 🧠  I'm learning NLP
 
