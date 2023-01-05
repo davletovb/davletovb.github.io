@@ -8,7 +8,7 @@ I have been learning
 
 * 🌍  I'm based in Ontario, Canada
 * 🖥️  See my portfolio at [behruz.me](http://behruz.me)
-* ✉️  You can contact me at [b@behruz.me](mailto:b@behruz.me)
+* ✉️  You can contact me at [b@behruz.me](mailto:hi@behruz.me)
 * 🧠  I'm learning NLP
 
 ### Skills
