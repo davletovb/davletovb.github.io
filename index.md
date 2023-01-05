@@ -4,7 +4,7 @@ Hi 👋 My name is Behruz
 Data Scientist and Sociologist
 ------------------------------
 
-I am a data scientist and sociologist who is enthusiastic about natural language processing (NLP). With a background in both areas, I have a special perspective on data analysis and am always eager to learn and utilize new techniques to solve complex issues. 
+I am a data scientist and sociologist who is enthusiastic about natural language processing (NLP). With a background in both areas, I have a special perspective on data and am always eager to learn and utilize new techniques to solve complex problems. 
 
 I am proficient in programming languages like Python, and I have a strong understanding of sociology. I am curious about how data can uncover social dynamics and patterns. As I continue to grow and learn in my roles as a data scientist and sociologist, I am excited to see how NLP will be used in my work and to discover new opportunities and challenges in the field.
 
