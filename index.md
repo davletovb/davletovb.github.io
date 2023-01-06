@@ -6,10 +6,10 @@ Data Scientist and Sociologist
 
 I am a data scientist and sociologist who is passionate about natural language processing (NLP). With a background in both, I have a unique perspective on data and am constantly eager to learn and apply novel techniques to solve complex problems. I am fluent in programming languages such as Python and have a solid understanding of sociology. I'm interested in how data can reveal social dynamics and patterns. As I continue to grow and learn in my roles, I am eager to apply NLP in my work and discover new opportunities and challenges in the field.
 
-🌍  I'm based in Ontario, Canada
-🖥️  See my portfolio at [github](https://github.com/davletovb)
-✉️  You can contact me at [hi@behruz.me](mailto:hi@behruz.me)
-🧠  I'm learning NLP
+🌍  I'm based in Ontario, Canada  
+🖥️  See my portfolio at [github](https://github.com/davletovb)  
+✉️  You can contact me at [hi@behruz.me](mailto:hi@behruz.me)  
+🧠  I'm learning NLP and working on [Prime](https://github.com/davletovb/prime)  
 
 ### Skills
 
