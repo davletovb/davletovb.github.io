@@ -30,7 +30,8 @@ I'm a data scientist and sociologist with a strong passion for natural language 
 <img align="left" alt="Sklearn" width="36px" src= "https://e7.pngegg.com/pngimages/309/384/png-clipart-scikit-learn-python-computer-icons-scikit-machine-learning-learning-text-orange-thumbnail.png"/>
 
 <img align="left" alt="Streamlit" width="36px" src= "https://user-images.githubusercontent.com/88608935/187243256-b5b07944-acca-44e4-b1f5-e78e1d0d9376.png"/>   
-
+<br/>
+<br/>
 
 ### Socials
 
