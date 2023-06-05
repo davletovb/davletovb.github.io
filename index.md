@@ -6,7 +6,7 @@ Data Scientist and Sociologist
 
 I'm a data scientist and sociologist with a strong passion for natural language processing (NLP). My background in both fields offers me a unique outlook on data, and I'm always eager to learn and employ innovative techniques to solve intricate problems. Proficient in Python and well-versed in sociology, I'm fascinated by how data can unveil social dynamics and patterns. As I progress in my career, I'm excited to incorporate NLP into my work and explore new possibilities and challenges in the domain.
 
-🌍  I'm based in Ontario, Canada  
+🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
 🧠  Currently learning NLP and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models, IntelliBot provides accurate information and fosters meaningful interactions.  
@@ -34,7 +34,7 @@ I'm a data scientist and sociologist with a strong passion for natural language 
 
 ### Socials
 
-<p align="left"> <a href="https://www.github.com/davletovb" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/behruz-davletov/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/dovletogly_b" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium-dark.svg" width="32" height="32" /></a></p>
+<p align="left"> <a href="https://www.github.com/davletovb" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/behruz-davletov/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/dovletogly_b" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a></p>
 
 ### Badges
 
