@@ -6,10 +6,10 @@ Data Scientist and Sociologist
 
 I'm a data scientist and sociologist with a strong passion for natural language processing (NLP). My background in both fields offers me a unique outlook on data, and I'm always eager to learn and employ innovative techniques to solve intricate problems. Proficient in Python and well-versed in sociology, I'm fascinated by how data can unveil social dynamics and patterns. As I progress in my career, I'm excited to incorporate NLP into my work and explore new possibilities and challenges in the domain.
 
-🌍  I'm based in Ontario, Canada
-🖥️  Portfolio: [github](https://github.com/davletovb)
+🌍  I'm based in Ontario, Canada  
+🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠  Currently learning NLP and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models, IntelliBot provides accurate information and fosters meaningful interactions.
+🧠  Currently learning NLP and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models, IntelliBot provides accurate information and fosters meaningful interactions.  
 
 ### Skills
 
@@ -30,6 +30,7 @@ I'm a data scientist and sociologist with a strong passion for natural language 
 <img align="left" alt="Sklearn" width="36px" src= "https://e7.pngegg.com/pngimages/309/384/png-clipart-scikit-learn-python-computer-icons-scikit-machine-learning-learning-text-orange-thumbnail.png"/>
 
 <img align="left" alt="Streamlit" width="36px" src= "https://user-images.githubusercontent.com/88608935/187243256-b5b07944-acca-44e4-b1f5-e78e1d0d9376.png"/>
+</br>
 
 ### Socials
 
