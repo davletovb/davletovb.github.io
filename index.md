@@ -4,11 +4,8 @@ Hi 👋 My name is Behruz
 A Person Who Does Things with Python
 ------------------------------------
 
-I’m an aspiring Python programmer with a keen interest in natural language processing (NLP). Coding in Python has given me an unusual angle on data, and I’m endlessly plotting to devise clever hacks to untangle tricky conundrums. I’m captivated by how data can unveil life’s little ironies. Always leveling up my Python skills, I’m keen to put NLP to work and take on new quests. If there’s a Python exploit, I’ll get to the bottom of it. Because that’s what I do—I’m the person who does things with Python.
+I’m an aspiring programmer with a keen interest in natural language processing (NLP). Years of programming has given me an unusual angle on data, and I’m endlessly plotting to devise clever hacks to untangle tricky conundrums. I’m captivated by how data can unveil life’s little ironies. Always leveling up my skills, I’m keen to put NLP to work and take on new quests. If there’s a Python exploit, I’ll get to the bottom of it. Because that’s what I do—I’m the person who does things with Python.
 
-
-
-As I level up my skills, I’m eager to apply NLP and take on new challenges. 
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
