@@ -9,8 +9,8 @@ I’m an aspiring data scientist with a keen interest in natural language proces
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠  Currently learning NLP, LLMs and Langchain and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models and tools, IntelliBot provides up-to-date information and fosters meaningful interactions. 
-📝  [Journal](https://behruz.me/journal): posts and updates about the projects I am working on
+🧠  Currently learning NLP, LLMs and Langchain and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models and tools, IntelliBot provides up-to-date information and fosters meaningful interactions.  
+📝  [Journal](https://behruz.me/journal): notes and updates about the projects I am working on
 
 ### Projects
 
