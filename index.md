@@ -17,7 +17,7 @@ I’m an aspiring data scientist with a keen interest in natural language proces
 [ClearSky](https://clearsky.streamlit.app) – Air Quality Index forecasting for the big cities in Canada  
 [Prime](https://github.com/davletovb/prime) – ML question answering system for products based on Reddit posts and comments  
 [Accord](https://github.com/davletovb/accord) – Matching Twitter users based on tweets using NLP   
-[English tests](https://t.me/englishprep_bot)) – Telegram bot that helps to practice the English language with tests  
+[English tests](https://t.me/englishprep_bot) – Telegram bot that helps to practice the English language with tests  
 
 
 ### Skills
