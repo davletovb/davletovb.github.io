@@ -1,7 +1,4 @@
-Hi 👋 My name is Behruz
-=======================
-
-Data Scientist
+<< [Home](https://behruz.me/) << Journal
 ------------------------------------
 
 ### Building a Serverless Machine Learning Service to Predict Air Quality Index
@@ -13,7 +10,7 @@ In this project, I built a Machine Learning service that can predict the Air Qua
 
 2. To ensure I had enough historical data (from https://www.weatherbit.io API) to train a Machine Learning model, I ran the feature script for a range of past dates.
 
-3. I then fetched historical (features, targets) data, trained and evaluated the best ML model possible for this data (e.g. ARIMA, XGBoostRegressor), and stored the trained model.
+3. I then fetched historical (features, targets) data, trained and evaluated the best ML model possible for this data (e.g. ARIMA, Exponential Smoothing), and stored the trained model.
 
 4. I set up a GitHub action to automatically run the feature generation script every day, using GitHub’s serverless computing power which is free.
 
@@ -42,18 +39,15 @@ The Haystack pipeline has four stages: preprocessing, document store, retriever,
 4. Reader: In the final stage, we pick a model to perform question answering on the documents preselected by the retriever. The reader and retriever are often chained together by a pipeline, allowing the user to ask a question with a single command that triggers actions from both the reader and retriever.
 
 
-Optimization Parameters
+## Optimization Parameters
 
 In the Haystack question answering pipeline, the preprocessing and retrieval stages offer the most opportunities for optimization.
 
 To improve the performance of the pipeline, the length of the documents can be adjusted during preprocessing stage. To adjust the length of your documents, you can use the PreProcessor class to segment your documents into passages of the optimal length. The split_by and split_length parameters allow you to specify the unit and number of words contained in a document, respectively. Additionally, the split_respect_sentence_boundary parameter ensures that documents are split only at sentence boundaries, and the split_overlap parameter allows you to include a few words of overlap between documents to avoid losing the syntactic context of a sentence.
 
-Another important parameter is top_k_retriever, which determines how many documents are indexed and searched by the retriever. A higher value for top_k_retriever will result in better performance, but it will also require more computing power. It’s important to find the right balance between performance and computing power for your specific use case.
+Another important parameter is top_k_retriever, which determines how many documents are indexed and searched by the retriever. A higher value for top_k_retriever will result in better performance, but it will also require more computing power. It’s important to find the right balance between performance and computing power for your specific use case. Overall, it is possible to improve Haystack’s performance by carefully adjusting these parameters.
 
-Overall, it is possible to improve Haystack’s performance by carefully adjusting these parameters.
-
-
-Sparse and Dense Retrieval Methods
+## Sparse and Dense Retrieval Methods
 
 Another important aspect in terms of optimization choices is related with the methods of indexing and searching through the document store. In the context of the Haystack question answering pipeline, “sparse” and “dense” methods refer to different approaches to indexing and searching documents.
 
@@ -63,8 +57,7 @@ In terms of implementation, sparse methods may use techniques such as TF-IDF (te
 
 Overall, the choice between sparse and dense methods depends on the specific use case and the trade-off between indexing speed and retrieval accuracy. It’s important to carefully consider the pros and cons of each method and choose the one that best fits the needs of your application.
 
-
-Results
+## Results
 
 I recently had the opportunity to test out Haystack and was pleasantly surprised by its capabilities. I started by using the roberta-base-squad2 model, which provided decent answers that included some context, but were on the short side and I needed long form answers. However, when I switched to the Seq2SeqGenerator function with the bart_lfqa model, the answers really started to shine. The model was able to generate longer, more detailed responses that provided a lot of useful information.
 
