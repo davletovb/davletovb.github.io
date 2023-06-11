@@ -1,16 +1,24 @@
 Hi 👋 My name is Behruz
 =======================
 
-A Person Who Does Things with Python
+Data Scientist
 ------------------------------------
 
-I’m an aspiring programmer with a keen interest in natural language processing (NLP). I am always eager to learn and apply new technologies to solve complex problems. I am excited to use my skills to make a positive impact on the world.
-
+I’m an aspiring data scientist with a keen interest in natural language processing (NLP). I am always eager to learn and apply new technologies to solve complex problems. I am excited to use my skills to make a positive impact on the world.
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠  Currently learning NLP and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models and tools, IntelliBot provides up-to-date information and fosters meaningful interactions.    
+🧠  Currently learning NLP, LLMs and Langchain and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models and tools, IntelliBot provides up-to-date information and fosters meaningful interactions. 
+
+### Projects
+
+[IntelliBot](https://github.com/davletovb/assistbot) – An AI assistant bot on Telegram and Whatsapp  
+[ClearSky](https://clearsky.streamlit.app) – Air Quality Index forecasting for the big cities in Canada  
+[Prime](https://github.com/davletovb/prime) – ML question answering system for products based on Reddit posts and comments  
+[Accord](https://github.com/davletovb/accord) – Matching Twitter users based on tweets using NLP   
+[English tests](https://t.me/englishprep_bot)) – Telegram bot that helps to practice the English language with tests  
+
 
 ### Skills
 
