@@ -1,4 +1,4 @@
-<< [Home](https://behruz.me/) << Journal
+[Home](https://behruz.me/) >> Journal
 ------------------------------------
 
 ### Building a Serverless Machine Learning Service to Predict Air Quality Index
