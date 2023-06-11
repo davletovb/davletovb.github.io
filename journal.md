@@ -1,7 +1,7 @@
 [Home](https://behruz.me/) >> Journal
 ------------------------------------
 
-### Building a Serverless Machine Learning Service to Predict Air Quality Index
+## Building a Serverless Machine Learning Service to Predict Air Quality Index
 February 24, 2023
 
 In this project, I built a Machine Learning service that can predict the Air Quality Index (AQI) in a specific Canadian city in the next few days using a 100% serverless stack. Here’s a summary of the steps I took to accomplish this:
@@ -23,7 +23,7 @@ To access the code: Github link
 To see the web app UI: link
 
 
-### Long Form Q&A with Haystack
+## Long Form Q&A with Haystack
 December 13, 2022
 
 Haystack is an open-source NLP framework that leverages pre-trained Transformer models to enable developers to quickly implement production-ready semantic search, question answering, summarization, and document ranking for a wide range of NLP applications. Haystack is highly customizable and can be optimized to improve its performance. In this post, we will explore some of the key parameters that can be adjusted to speed up a Haystack QA pipeline without sacrificing the quality of its results.
@@ -39,7 +39,7 @@ The Haystack pipeline has four stages: preprocessing, document store, retriever,
 4. Reader: In the final stage, we pick a model to perform question answering on the documents preselected by the retriever. The reader and retriever are often chained together by a pipeline, allowing the user to ask a question with a single command that triggers actions from both the reader and retriever.
 
 
-## Optimization Parameters
+### Optimization Parameters
 
 In the Haystack question answering pipeline, the preprocessing and retrieval stages offer the most opportunities for optimization.
 
@@ -47,7 +47,7 @@ To improve the performance of the pipeline, the length of the documents can be a
 
 Another important parameter is top_k_retriever, which determines how many documents are indexed and searched by the retriever. A higher value for top_k_retriever will result in better performance, but it will also require more computing power. It’s important to find the right balance between performance and computing power for your specific use case. Overall, it is possible to improve Haystack’s performance by carefully adjusting these parameters.
 
-## Sparse and Dense Retrieval Methods
+### Sparse and Dense Retrieval Methods
 
 Another important aspect in terms of optimization choices is related with the methods of indexing and searching through the document store. In the context of the Haystack question answering pipeline, “sparse” and “dense” methods refer to different approaches to indexing and searching documents.
 
@@ -57,7 +57,7 @@ In terms of implementation, sparse methods may use techniques such as TF-IDF (te
 
 Overall, the choice between sparse and dense methods depends on the specific use case and the trade-off between indexing speed and retrieval accuracy. It’s important to carefully consider the pros and cons of each method and choose the one that best fits the needs of your application.
 
-## Results
+### Results
 
 I recently had the opportunity to test out Haystack and was pleasantly surprised by its capabilities. I started by using the roberta-base-squad2 model, which provided decent answers that included some context, but were on the short side and I needed long form answers. However, when I switched to the Seq2SeqGenerator function with the bart_lfqa model, the answers really started to shine. The model was able to generate longer, more detailed responses that provided a lot of useful information.
 
