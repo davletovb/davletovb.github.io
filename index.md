@@ -1,7 +1,7 @@
 Hi 👋 My name is Behruz
 =======================
 
-Data Scientist
+I use Python to work with data
 ------------------------------------
 
 I’m an aspiring data scientist with a keen interest in natural language processing (NLP). I am always eager to learn and apply new technologies to solve complex problems. I am excited to use my skills to make a positive impact on the world.
