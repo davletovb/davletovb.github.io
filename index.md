@@ -33,8 +33,6 @@ I’m an aspiring data scientist with a keen interest in natural language proces
 
 <img align="left" alt="NumPy" width="36px" src= "https://user-images.githubusercontent.com/67586773/105040771-43887300-5a88-11eb-9f01-bee100b9ef22.png"/>
 
-<img align="left" alt="Keras" width="36px" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1024px-Keras_logo.svg.png"/>
-
 <img align="left" alt="SQL" width="36px" src= "https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png"/>
 
 <img align="left" alt="Sklearn" width="36px" src= "https://e7.pngegg.com/pngimages/309/384/png-clipart-scikit-learn-python-computer-icons-scikit-machine-learning-learning-text-orange-thumbnail.png"/>
@@ -48,6 +46,5 @@ I’m an aspiring data scientist with a keen interest in natural language proces
 
 ### GitHub Stats
 
-<a href="http://www.github.com/davletovb"><img src="https://github-readme-stats.vercel.app/api?username=davletovb&show_icons=true&hide=stars,prs,contribs&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=22272e&hide_border=true&show_icons=true" alt="davletovb's GitHub stats" /></a>
 
 <a href="http://www.github.com/davletovb"><img src="https://github-readme-streak-stats.herokuapp.com/?user=davletovb&stroke=ffffff&background=22272e&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
