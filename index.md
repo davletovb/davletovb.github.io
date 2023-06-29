@@ -6,25 +6,23 @@ Data Scientist | Machine Learning and AI
 
 As a dedicated Data Scientist, I specialize in transforming raw data into valuable insights. My expertise in Machine Learning, Natural Language Processing, and data-driven decision-making has been sharpened through diverse projects and professional experiences.
 
-I've contributed to innovative projects such as IntelliBot, an AI messaging assistant, and ClearSky, a system for forecasting air quality. These experiences have deepened my understanding of AI and ML techniques, enabling me to solve real-world problems.
+My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index for major Canadian cities to creating a tool that matches Twitter users based on their tweets using NLP, each project has been a unique journey. I've also developed a Machine Learning-based system that answers product-related questions using Reddit posts and comments, and a Telegram bot that helps users practice English.
 
-In my professional journey, I've advised organizations on data governance, conducted data-driven geopolitical and security research, and created tools for data collection, tagging, and visualization. Whether working solo or in a team, my goal is to deliver value and make a positive impact through data.
-
-I'm always ready for new challenges and growth opportunities in data science. If you're seeking a technically skilled, passionate learner with a knack for innovative problem-solving, I'd be delighted to connect.
+In my professional journey, I've always aimed to deliver value and make a positive impact through data. If you're seeking a technically skilled, passionate learner with a knack for innovative problem-solving, I'd be delighted to connect.
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠  Currently learning NLP, LLMs and Langchain and developing [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries on platforms like Telegram and WhatsApp. Powered by advanced AI models and tools, IntelliBot provides up-to-date information and fosters meaningful interactions.  
-📝  [Journal](https://behruz.me/journal): notes and updates about the projects I am working on
+🧠 Currently learning the fascinating domains of Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries across various messaging platforms. Powered by advanced AI models and tools, IntelliBot offers timely information and facilitates meaningful interactions.  
+📝  [Journal](https://behruz.me/journal): I share notes and updates about my ongoing projects, providing insights into my work process and progress.
 
 ### Projects
 
-[IntelliBot](https://github.com/davletovb/assistbot) – An AI assistant bot on Telegram and Whatsapp  
-[ClearSky](https://clearsky.streamlit.app) – Air Quality Index forecasting for the big cities in Canada  
-[Prime](https://github.com/davletovb/prime) – ML question answering system for products based on Reddit posts and comments  
-[Accord](https://github.com/davletovb/accord) – Matching Twitter users based on tweets using NLP   
-[English tests](https://t.me/englishprep_bot) – Telegram bot that helps to practice the English language with tests  
+[IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
+[ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
+[Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answer system  
+[Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
+[English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
 
 
 ### Skills
