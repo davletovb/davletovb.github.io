@@ -1,10 +1,16 @@
 Hi 👋 My name is Behruz
 =======================
 
-I use Python to work with data
+Data Scientist | Machine Learning and AI
 ------------------------------------
 
-I’m an aspiring data scientist with a keen interest in natural language processing (NLP). I am always eager to learn and apply new technologies to solve complex problems. I am excited to use my skills to make a positive impact on the world.
+As a dedicated Data Scientist, I specialize in transforming raw data into valuable insights. My expertise in Machine Learning, Natural Language Processing, and data-driven decision-making has been sharpened through diverse projects and professional experiences.
+
+I've contributed to innovative projects such as IntelliBot, an AI messaging assistant, and ClearSky, a system for forecasting air quality. These experiences have deepened my understanding of AI and ML techniques, enabling me to solve real-world problems.
+
+In my professional journey, I've advised organizations on data governance, conducted data-driven geopolitical and security research, and created tools for data collection, tagging, and visualization. Whether working solo or in a team, my goal is to deliver value and make a positive impact through data.
+
+I'm always ready for new challenges and growth opportunities in data science. If you're seeking a technically skilled, passionate learner with a knack for innovative problem-solving, I'd be delighted to connect.
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
