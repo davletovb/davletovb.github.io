@@ -1,7 +1,7 @@
 Hi 👋 My name is Behruz
 =======================
 
-Data Scientist | Machine Learning and AI
+Data Scientist | ML | AI
 ------------------------------------
 
 As a dedicated Data Scientist, I specialize in transforming raw data into valuable insights. My expertise in Machine Learning, Natural Language Processing, and data-driven decision-making has been sharpened through diverse projects and professional experiences.
