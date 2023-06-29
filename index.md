@@ -20,7 +20,7 @@ In my professional journey, I've always aimed to deliver value and make a positi
 
 [IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
 [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
-[Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answer system  
+[Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
 [Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
 [English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
 
