@@ -4,11 +4,8 @@ Hi 👋 My name is Behruz
 Data Scientist | ML | NLP | AI
 ------------------------------------
 
-As a dedicated Data Scientist, I specialize in transforming raw data into valuable insights. My expertise in Machine Learning, Natural Language Processing, and data-driven decision-making has been sharpened through diverse projects and professional experiences.
-
 My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index for major Canadian cities to creating a tool that matches Twitter users based on their tweets using NLP, each project has been a unique journey. I've also developed a Machine Learning-based system that answers product-related questions using Reddit posts and comments, and a Telegram bot that helps users practice English.
 
-In my professional journey, I've always aimed to deliver value and make a positive impact through data. If you're seeking a technically skilled, passionate learner with a knack for innovative problem-solving, I'd be delighted to connect.
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
