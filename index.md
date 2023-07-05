@@ -10,11 +10,12 @@ My portfolio includes a diverse range of innovative projects. From forecasting t
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠 Currently learning the fascinating domains of Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [IntelliBot](https://github.com/davletovb/assistbot), a versatile messaging chatbot capable of handling text, image, and audio inquiries across various messaging platforms. Powered by advanced AI models and tools, IntelliBot offers timely information and facilitates meaningful interactions.  
+🧠 Currently learning the fascinating domains of Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [AImpact](https://github.com/davletovb/simulation-app), an interactive simulation game that combines decision-making, societal management, and AI assistance. AImpact offers a unique blend of entertainment and education, providing insights into political decision-making processes while engaging users in a dynamic virtual environment.  
 📝  [Journal](https://behruz.me/journal): I share notes and updates about my ongoing projects, providing insights into my work process and progress.
 
 ### Projects
 
+[AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game  
 [IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
 [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
 [Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
