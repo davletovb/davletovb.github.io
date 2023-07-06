@@ -6,15 +6,15 @@ Data Scientist | ML | NLP | AI
 
 My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index to creating a tool that leverages NLP and ML to match Twitter users. I've also built a Machine Learning-based system that utilizes Reddit posts and comments to answer product-related questions. In addition to these, I've developed an AI assistant for messaging platforms, and a bot designed to help users practice English through tests.  
 
-🧠 Currently learning Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [AImpact](https://github.com/davletovb/simulation-app), an interactive simulation game that combines decision-making, societal management, and AI assistance. AImpact offers a unique blend of entertainment and education, providing insights into political decision-making processes while engaging users in a dynamic virtual environment.  
-📝  [Journal](https://behruz.me/journal): I share notes and updates about my ongoing projects, providing insights into my work process and progress.  
+🧠 Currently my passion for learning and problem-solving is channeled into the development of [AImpact](https://github.com/davletovb/simulation-app), an interactive simulation game that combines decision-making, societal management, and AI assistance. AImpact offers a unique blend of entertainment and education, providing insights into political decision-making processes while engaging users in a dynamic virtual environment.  
+📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
 
 ### Projects
 
-[AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game  
+[AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game using Langchain and LLM  
 [IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
 [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
 [Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
