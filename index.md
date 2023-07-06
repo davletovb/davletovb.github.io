@@ -4,7 +4,7 @@ Hi 👋 My name is Behruz
 Data Scientist | ML | NLP | AI
 ------------------------------------
 
-My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index to creating a tool that matches Twitter users based on their tweets using NLP, each project has been a unique journey. I've also developed a Machine Learning-based system that answers product-related questions using Reddit posts and comments, and a Telegram bot that helps users practice English.
+My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index to creating a tool that leverages NLP and ML to match Twitter users. I've also built a Machine Learning-based system that utilizes Reddit posts and comments to answer product-related questions. In addition to these, I've developed an AI assistant for messaging platforms, and a bot designed to help users practice English through tests.
 
 
 🌍  Location: Ontario, Canada  
