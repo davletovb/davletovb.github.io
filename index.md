@@ -14,12 +14,12 @@ My portfolio includes a diverse range of innovative projects. From forecasting t
 
 ### Projects
 
-[AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game using Langchain and LLM  
-[IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
-[ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
-[Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
-[Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
-[English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
+2023: [AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game using Langchain and LLM  
+2023: [IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
+2022: [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
+2022: [Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
+2020: [Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
+2020: [English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
 
 
 ### Skills
