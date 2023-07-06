@@ -4,13 +4,13 @@ Hi 👋 My name is Behruz
 Data Scientist | ML | NLP | AI
 ------------------------------------
 
-My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index for major Canadian cities to creating a tool that matches Twitter users based on their tweets using NLP, each project has been a unique journey. I've also developed a Machine Learning-based system that answers product-related questions using Reddit posts and comments, and a Telegram bot that helps users practice English.
+My portfolio includes a diverse range of innovative projects. From forecasting the Air Quality Index to creating a tool that matches Twitter users based on their tweets using NLP, each project has been a unique journey. I've also developed a Machine Learning-based system that answers product-related questions using Reddit posts and comments, and a Telegram bot that helps users practice English.
 
 
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
-🧠 Currently learning the fascinating domains of Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [AImpact](https://github.com/davletovb/simulation-app), an interactive simulation game that combines decision-making, societal management, and AI assistance. AImpact offers a unique blend of entertainment and education, providing insights into political decision-making processes while engaging users in a dynamic virtual environment.  
+🧠 Currently learning Natural Language Processing (NLP), Large Language Models (LLMs), and Langchain. My passion for learning and problem-solving is currently channeled into the development of [AImpact](https://github.com/davletovb/simulation-app), an interactive simulation game that combines decision-making, societal management, and AI assistance. AImpact offers a unique blend of entertainment and education, providing insights into political decision-making processes while engaging users in a dynamic virtual environment.  
 📝  [Journal](https://behruz.me/journal): I share notes and updates about my ongoing projects, providing insights into my work process and progress.
 
 ### Projects
