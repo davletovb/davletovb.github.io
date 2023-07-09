@@ -14,7 +14,7 @@ My portfolio includes a diverse range of innovative projects. From forecasting t
 
 ### Projects
 
-2023: [AImpact](https://github.com/davletovb/simulation-app) – AI-assisted virtual country management game using Langchain and LLM  
+2023: [AImpact](https://github.com/davletovb/simulation-app) – AI-assisted political simulation game  
 2023: [IntelliBot](https://github.com/davletovb/assistbot) – AI assistant for messaging platforms  
 2022: [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
 2022: [Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
