@@ -18,9 +18,7 @@ LangChain is a powerful tool that can be used to work with Large Language Models
 Intellibot is built using the FastAPI framework for Python, which is a high-performance, easy-to-use framework for building APIs. Chroma vector database for storing text embeddings locally. Langchain also allows building AI agents that can choose specific tools among available tools to perform and finalize complex queries and tasks.
 
 ### Technical Challenges and Solutions
-One of the main challenges was managing the state of the bot. For this, I used Redis, a fast, in-memory data store. Redis is used to store the status of each bot, which can be updated and retrieved via the /bot/{bot_id} and /start_bot/{bot_id} API endpoints.
-
-Another challenge was authenticating users. For this, I used the OAuth2 protocol, which is a standard protocol for authorization. The /token API endpoint is used to authenticate users and generate access tokens.
+Initially, I started building the bot directly with OpenAI's API. Designed a prompt that returned the name of the function (current function support wasn't available at the time). It worked, but, eventually, as I kept adding new functions and features it has become a burden to manage and update the system. So I decided to try the Langchain framework.
 
 ### The Role of LangChain
 LangChain played a crucial role in the development of Intellibot. It allowed me to implement the same tools and more with a few lines of code. Despite being a relatively new tool, the fast-growing community and the pace of development made it a good choice. The seamless integration with Chroma vector database and other databases is also very helpful. It made a lot of my work easy while building this chatbot with long-term conversation history.
