@@ -28,7 +28,7 @@ LangChain played a crucial role in the development of Assistbot. It allowed me t
 ### Conclusion
 Building Assistbot was a challenging but rewarding experience. It taught me a lot about building robust and scalable chatbots, and I hope it can serve as a useful resource for others looking to build their own chatbots. The Assistbot is open-source and available on GitHub, so feel free to check it out and contribute!
 
-To access the code: [github](https://github.com/davletovb/assistbot)
+To access the code: [github](https://github.com/davletovb/intellibot)
 
 ## Building a Serverless Machine Learning Service to Predict Air Quality Index
 February 24, 2023
