@@ -1,8 +1,37 @@
 [Home](https://behruz.me/) >> Journal
 ------------------------------------
 
+## AI-Driven Political Simulation Game: Filling the Gaps in Interactive Decision-Making
+July 26, 2023
+
+As we continue to explore the immense potential of AI, we find ourselves at the intersection of technology, politics, and social science. I've been working on an ambitious project - a political simulation game, driven by AI. The aim? To fill in the gaps in our understanding and application of AI in interactive decision-making scenarios.
+
+### The Need
+While AI has seen remarkable advancements, it's the application of these technologies in the real world that truly validates their potential. One such application is the simulation of complex systems, like governance, where countless variables interact to shape outcomes. Existing solutions lacked the intuitive nature and flexibility needed to create and experiment with multi-agent simulations. This is where our project comes in.
+
+### The Solution
+We've developed a political simulation game where players choose a country and an AI assistant to shape the game environment. Decisions made by players directly influence various parameters like education, economy, and defense, which in turn affect secondary factors like quality of life and minister loyalty.
+
+The game incorporates a committee of AI ministers, each with unique interests, adding a layer of complexity and negotiation to policy implementation. This mirrors real-world politics, where decision-making is often a negotiation between diverse interest groups.
+
+### The Tech Stack
+A key aspect of this project is the use of Large Language Models (LLMs) like OpenAI's GPT-3 and Meta AI's LLaMA2. These models serve as the foundation of our AI agents, enabling rich, human-like interactions. Langchain framework was used to create and manage AI agents. Streamlit was used to build an interface.
+
+For the development of the multi-agent system, I created a new Python library. This library provides a simple and flexible way to create and experiment with simulation agents, filling a significant gap in the available tools for such projects. I am still working on this library and it will be open-sourced soon.
+
+## Overcoming Challenges
+Developing this project wasn't without its challenges. One of the biggest was the operational cost of running LLMs. We explored various deployment methods to find a cost-effective solution without compromising performance.
+
+Another challenge was the slow response time of LLaMA2 on local machines. To overcome this, we are exploring a cloud-based solution that would allow us to maintain high performance while keeping costs down.
+
+## The Future
+The project is a stepping stone towards a future where AI agents are integral components of human organizations. It's a glimpse into a world where AI not only aids decision-making but also plays an active role in the process.
+
+I am brimming with ideas for future enhancements and am excited to continue exploring the potential of AI in governance and organizational operations. Stay tuned for more updates as we navigate this thrilling journey!
+
+
 ## Intellibot: A Comprehensive Guide to Building a Multifaceted AI Chatbot with LangChain
-July 16, 2023
+July 6, 2023
 
 In the realm of AI, chatbots have become an integral part of our digital experience. They assist us, answer our questions, and even perform tasks by connecting to various APIs. Today, I am going to share my journey of creating one such chatbot, Intellibot, which I built using Python, LangChain, and hosted on GitHub.
 
@@ -21,7 +50,7 @@ Intellibot is built using the FastAPI framework for Python, which is a high-perf
 Initially, I started building the bot directly with OpenAI's API. Designed a prompt that returned the name of the function (current function support wasn't available at the time). It worked, but, eventually, as I kept adding new functions and features it has become a burden to manage and update the system. So I decided to try the Langchain framework.
 
 ### The Role of LangChain
-LangChain played a crucial role in the development of Intellibot. It allowed me to implement the same tools and more with a few lines of code. Despite being a relatively new tool, the fast-growing community and the pace of development made it a good choice. The seamless integration with Chroma vector database and other databases is also very helpful. It made a lot of my work easy while building this chatbot with long-term conversation history.
+LangChain played a crucial role in the development of Intellibot. It allowed me to implement the same tools and more with a few lines of code. Despite being a relatively new tool, the fast-growing community and the pace of development made it a good choice. The seamless integration with the Chroma vector database and other databases is also very helpful. It made a lot of my work easy while building this chatbot with long-term conversation history.
 
 ### Conclusion
 Building Intellibot was a challenging but rewarding experience. It taught me a lot about building robust and scalable chatbots, and I hope it can serve as a useful resource for others looking to build their own chatbots. Intellibot is open-source and available on GitHub, so feel free to check it out and contribute!
@@ -57,26 +86,26 @@ Haystack is an open-source NLP framework that leverages pre-trained Transformer 
 
 The Haystack pipeline has four stages: preprocessing, document store, retriever, and reader. Let’s first understand what these four stages are, and then we can discuss the relevant parts in detail.
 
-1. Preprocessing: In this stage, we read in our document collection and convert it to a list of dictionaries. Additionally, we may use the PreProcessor class to modify our data.
+1. Preprocessing: In this stage, we read our document collection and convert it to a list of dictionaries. Additionally, we may use the PreProcessor class to modify our data.
 
 2. Document Store: We pick the database that best fits our use case, and feed our preprocessed documents to the database via a document store object.
 
 3. Retriever: In this stage, we index our database by means of the retriever, making our documents searchable. We can choose between “sparse” and “dense” retrieval methods, which differ in their indexing speed and the use of transformer-based language models.
 
-4. Reader: In the final stage, we pick a model to perform question answering on the documents preselected by the retriever. The reader and retriever are often chained together by a pipeline, allowing the user to ask a question with a single command that triggers actions from both the reader and retriever.
+4. Reader: In the final stage, we pick a model to perform question answering on the documents preselected by the retriever. The reader and retriever are often chained together by a pipeline, allowing the user to ask a question with a single command that triggers actions from both the reader and the retriever.
 
 
 ### Optimization Parameters
 
-In the Haystack question answering pipeline, the preprocessing and retrieval stages offer the most opportunities for optimization.
+In the Haystack question-answering pipeline, the preprocessing and retrieval stages offer the most opportunities for optimization.
 
-To improve the performance of the pipeline, the length of the documents can be adjusted during preprocessing stage. To adjust the length of your documents, you can use the PreProcessor class to segment your documents into passages of the optimal length. The split_by and split_length parameters allow you to specify the unit and number of words contained in a document, respectively. Additionally, the split_respect_sentence_boundary parameter ensures that documents are split only at sentence boundaries, and the split_overlap parameter allows you to include a few words of overlap between documents to avoid losing the syntactic context of a sentence.
+To improve the performance of the pipeline, the length of the documents can be adjusted during the preprocessing stage. To adjust the length of your documents, you can use the PreProcessor class to segment your documents into passages of the optimal length. The split_by and split_length parameters allow you to specify the unit and number of words contained in a document, respectively. Additionally, the split_respect_sentence_boundary parameter ensures that documents are split only at sentence boundaries, and the split_overlap parameter allows you to include a few words of overlap between documents to avoid losing the syntactic context of a sentence.
 
 Another important parameter is top_k_retriever, which determines how many documents are indexed and searched by the retriever. A higher value for top_k_retriever will result in better performance, but it will also require more computing power. It’s important to find the right balance between performance and computing power for your specific use case. Overall, it is possible to improve Haystack’s performance by carefully adjusting these parameters.
 
 ### Sparse and Dense Retrieval Methods
 
-Another important aspect in terms of optimization choices is related with the methods of indexing and searching through the document store. In the context of the Haystack question answering pipeline, “sparse” and “dense” methods refer to different approaches to indexing and searching documents.
+Another important aspect in terms of optimization choices is related to the methods of indexing and searching through the document store. In the context of the Haystack question answering pipeline, “sparse” and “dense” methods refer to different approaches to indexing and searching documents.
 
 Sparse methods are typically faster at indexing than dense methods, but they may not be as effective at selecting relevant documents. In general, sparse methods rely on simple keyword-based search algorithms, while dense methods use transformer-based language models to better understand the content of the documents and select the most relevant ones.
 
@@ -86,12 +115,12 @@ Overall, the choice between sparse and dense methods depends on the specific use
 
 ### Results
 
-I recently had the opportunity to test out Haystack and was pleasantly surprised by its capabilities. I started by using the roberta-base-squad2 model, which provided decent answers that included some context, but were on the short side and I needed long form answers. However, when I switched to the Seq2SeqGenerator function with the bart_lfqa model, the answers really started to shine. The model was able to generate longer, more detailed responses that provided a lot of useful information.
+I recently had the opportunity to test out Haystack and was pleasantly surprised by its capabilities. I started by using the roberta-base-squad2 model, which provided decent answers that included some context but were on the short side and I needed long-form answers. However, when I switched to the Seq2SeqGenerator function with the bart_lfqa model, the answers really started to shine. The model was able to generate longer, more detailed responses that provided a lot of useful information.
 
-For example, when I asked which VPN was the best, the model generated a response that mentioned some of the top VPNs and provided some context about why they were considered the best. However, when I asked about the best office chair, the answer wasn’t quite as on point. To improve the answers, I added a document from the Wirecutter about the best chairs and the results improved. The model was able to mention some of the best known chairs and provide more information about why they were considered the best. Therefore, I scraped some blogs and articles from the Wirecutter and added them to the datastore. This improved the answers for most questions, but it also increased the time it took to generate an answer. The increase in time was understandable given the larger size of the datastore.
+For example, when I asked which VPN was the best, the model generated a response that mentioned some of the top VPNs and provided some context about why they were considered the best. However, when I asked about the best office chair, the answer wasn’t quite as on point. To improve the answers, I added a document from Wirecutter about the best chairs, and the results improved. The model was able to mention some of the best-known chairs and provide more information about why they were considered the best. Therefore, I scraped some blogs and articles from Wirecutter and added them to the datastore. This improved the answers for most questions, but it also increased the time it took to generate an answer. The increase in time was understandable given the larger size of the datastore.
 
 In terms of optimization, I tried a few different approaches to improve the speed and accuracy of Haystack’s answers. I reduced the top_k_retriever parameter from 10 to 5, which only made a very small difference in the time it took to generate an answer. I also tried using the PreProcessor function with different parameters, which helped reduce the time it took to generate an answer. For instance, using the PreProcessor with the split_by=”word”, split_length=100, and split_respect_sentence_boundary=True parameters reduced the time it took to generate an answer by 20-25% in general.
 
-I also experimented with different retrieval and generation models. For example, I tried using the DensePassageRetriever with Facebook’s DPR embeddings and the RAGenerator with Facebook’s rag-token-nq model. This yielded better and more accurate answers for knowledge-intensive NLP questions, but it also doubled the time it took to generate an answer. The answers are short and that can be extended by setting the parameter min_length. Also, an important to note dense method requires shorter document sizes recommended 100 words. The top_k_retriever parameter also has a much significant impact when used DPR method, increasing the speed by almost 30% in my case when reduced from 10 to 5.
+I also experimented with different retrieval and generation models. For example, I tried using the DensePassageRetriever with Facebook’s DPR embeddings and the RAGenerator with Facebook’s rag-token-nq model. This yielded better and more accurate answers for knowledge-intensive NLP questions, but it also doubled the time it took to generate an answer. The answers are short and that can be extended by setting the parameter min_length. Also, it is important to note dense method requires shorter document sizes, and 100 words are recommended. The top_k_retriever parameter also has a significant impact when using the DPR method, increasing the speed by almost 30% in my case when reduced from 10 to 5.
 
 I will continue to play with this framework and I am going to fine-tune a specific model for this purpose using https://huggingface.co/datasets/vblagoje/lfqa dataset and wirecutter blog posts. Overall, I am quite impressed with Haystack and would recommend it to other NLP and ML engineers looking for a fast and accurate QA system. Give it a try and see for yourself.
