@@ -6,7 +6,7 @@ Data Scientist | ML | NLP | AI
 
 My portfolio includes a diverse range of innovative projects, from forecasting the Air Quality Index to creating a tool that leverages NLP and ML to match Twitter users. I've also built a Machine Learning-based system that utilizes Reddit posts and comments to answer product-related questions. In addition, I've developed an AI assistant for messaging platforms, and a bot designed to help users practice English through tests.  
 
-🧠 Currently my passion for learning and problem-solving is channeled into the development of a political strategy game with AI, inviting players to step into the shoes of a national leader, guided by an AI assistant. This simulation game challenges players to balance the nuanced demands of different demographic groups, craft impactful policies, and respond to challenging narratives.  
+🧠 Currently, my passion for learning and problem-solving is being channeled into the development of a Python library for multi-agent systems, specifically designed for large language models (LLM). The library is intended to be easy to use, intuitive, and flexible, making it simple to start AI agents and simulations. It will support various use cases and is inspired by the Mesa library.   
 📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
 🌍  Location: Ontario, Canada  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
