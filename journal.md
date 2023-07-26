@@ -19,12 +19,12 @@ A key aspect of this project is the use of Large Language Models (LLMs) like Ope
 
 For the development of the multi-agent system, I created a new Python library. This library provides a simple and flexible way to create and experiment with simulation agents, filling a significant gap in the available tools for such projects. I am still working on this library and it will be open-sourced soon.
 
-## Overcoming Challenges
+### Overcoming Challenges
 Developing this project wasn't without its challenges. One of the biggest was the operational cost of running LLMs. We explored various deployment methods to find a cost-effective solution without compromising performance.
 
 Another challenge was the slow response time of LLaMA2 on local machines. To overcome this, we are exploring a cloud-based solution that would allow us to maintain high performance while keeping costs down.
 
-## The Future
+### The Future
 The project is a stepping stone towards a future where AI agents are integral components of human organizations. It's a glimpse into a world where AI not only aids decision-making but also plays an active role in the process.
 
 I am brimming with ideas for future enhancements and am excited to continue exploring the potential of AI in governance and organizational operations. Stay tuned for more updates as we navigate this thrilling journey!
