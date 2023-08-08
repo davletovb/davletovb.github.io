@@ -1,10 +1,10 @@
 Hi 👋 My name is Behruz
 =======================
 
-Data Scientist | ML | NLP | AI
+Data Science | ML | Sociology
 ------------------------------------
 
-My portfolio includes a diverse range of innovative projects, from forecasting the Air Quality Index to creating a tool that leverages NLP and ML to match Twitter users. I've also built a Machine Learning-based system that utilizes Reddit posts and comments to answer product-related questions. In addition, I've developed an AI assistant for messaging platforms, and a bot designed to help users practice English through tests.  
+My portfolio includes a diverse range of innovative projects, from forecasting the Air Quality Index to creating a tool that leverages NLP and ML to match Twitter users. I've also built a Machine Learning-based system that utilizes Reddit posts and comments to answer product-related questions. In addition, I've developed an AI assistant for messaging platforms, and a bot designed to help users practice English through tests. In addition to my technical skills, I bring a unique perspective from my background in sociology. This allows me to consider the social implications of AI and design systems that take into account social dynamics.  
 
 🧠 Currently, my passion for learning and problem-solving is being channeled into the development of a Python library for multi-agent systems, specifically designed for large language models (LLM). The library is intended to be easy to use, intuitive, and flexible, making it simple to create AI agents and simulations. It will support various use cases and is inspired by the Mesa library.   
 📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
@@ -16,8 +16,8 @@ My portfolio includes a diverse range of innovative projects, from forecasting t
 
 2023: [Simulation](https://github.com/davletovb/simulation-app) – AI-assisted political simulation game  
 2023: [IntelliBot](https://github.com/davletovb/intellibot) – AI assistant for messaging platforms  
-2022: [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities  
-2022: [Prime](https://github.com/davletovb/prime) – AI-powered document Question & Answering system  
+2022: [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities   
+2022: [Prime](https://github.com/davletovb/prime) – NLP-powered document Question & Answering system  
 2020: [Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
 2020: [English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
 
