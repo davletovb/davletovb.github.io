@@ -6,7 +6,7 @@ Data Science | Sociology
 
 🧠 Currently, my passion for learning and problem-solving is being channeled into the development of [Neva](https://github.com/davletovb/neva), a Python library for multi-agent systems, specifically designed for large language models (LLM). The library is intended to be easy to use, intuitive, and flexible, making it simple to create AI agents and simulations. It will support various use cases and is inspired by the Mesa library.   
 📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
-🌍  Location: Central Asia 
+🌍  Location: Central Asia  
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
 
