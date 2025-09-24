@@ -1,12 +1,12 @@
 Hi 👋 My name is Behruz
 =======================
 
-Data Science | ML | Sociology
+Data Science | Sociology
 ------------------------------------
 
 🧠 Currently, my passion for learning and problem-solving is being channeled into the development of [Neva](https://github.com/davletovb/neva), a Python library for multi-agent systems, specifically designed for large language models (LLM). The library is intended to be easy to use, intuitive, and flexible, making it simple to create AI agents and simulations. It will support various use cases and is inspired by the Mesa library.   
 📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
-🌍  Location: Ontario, Canada  
+🌍  Location: Central Asia 
 🖥️  Portfolio: [github](https://github.com/davletovb)  
 ✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
 
@@ -41,4 +41,4 @@ Data Science | ML | Sociology
 
 ### Socials
 
-<p align="left"> <a href="https://www.github.com/davletovb" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/behruz-davletov/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://x.com/behruz__d" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
+<p align="left"> <a href="https://www.github.com/davletovb" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/behruz-davletov/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> </p>
