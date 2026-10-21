@@ -1,5 +1,26 @@
-[Home](https://behruz.me/) >> Journal
-------------------------------------
+---
+layout: default
+title: Journal
+description: Notes on AI tools, Rust infrastructure, social simulation, and learning products, with an archive of earlier work.
+permalink: /journal/
+journal: true
+body_class: journal-page
+---
+<header class="page-heading">
+  <p class="eyebrow">Engineering &amp; research / Field notes</p>
+  <h1>Journal</h1>
+  <p>What I’m building, the questions behind it, and the choices that connect the two.</p>
+</header>
+
+<section class="journal-current" aria-label="Recent project notes">
+  {% include recent-notes.html %}
+</section>
+
+<header class="archive-intro">
+  <p class="eyebrow">Earlier work</p>
+  <h2 id="archive">Archive · 2022–2023</h2>
+  <p>These entries are preserved from their original publication dates. Project names, tools, and plans reflect that time; the <a href="/#work">homepage</a> describes current work.</p>
+</header>
 
 ## AI-Driven Political Simulation Game: Filling the Gaps in Interactive Decision-Making
 July 26, 2023
@@ -124,3 +145,4 @@ In terms of optimization, I tried a few different approaches to improve the spee
 I also experimented with different retrieval and generation models. For example, I tried using the DensePassageRetriever with Facebook’s DPR embeddings and the RAGenerator with Facebook’s rag-token-nq model. This yielded better and more accurate answers for knowledge-intensive NLP questions, but it also doubled the time it took to generate an answer. The answers are short and that can be extended by setting the parameter min_length. Also, it is important to note dense method requires shorter document sizes, and 100 words are recommended. The top_k_retriever parameter also has a significant impact when using the DPR method, increasing the speed by almost 30% in my case when reduced from 10 to 5.
 
 I will continue to play with this framework and I am going to fine-tune a specific model for this purpose using https://huggingface.co/datasets/vblagoje/lfqa dataset and wirecutter blog posts. Overall, I am quite impressed with Haystack and would recommend it to other NLP and ML engineers looking for a fast and accurate QA system. Give it a try and see for yourself.
+

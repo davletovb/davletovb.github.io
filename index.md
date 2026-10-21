@@ -1,44 +1,80 @@
-Hi 👋 My name is Behruz
-=======================
+---
+layout: default
+title: AI tools, Rust infrastructure, and social research
+description: I’m Behruz, an engineer and sociologist building AI applications, Rust infrastructure, and reproducible simulations of social systems.
+home: true
+body_class: home-page
+---
+<section class="hero" aria-labelledby="intro">
+  <div>
+    <p class="eyebrow">AI engineering · Computational social science</p>
+    <h1 id="intro">I build AI tools<br>and study<br><em>social systems.</em></h1>
+    <p class="hero-intro">I’m Behruz, an engineer and sociologist. I build software for thinking, learning, and research, and use agent-based simulation to investigate how social patterns emerge.</p>
+    <div class="hero-links"><a class="button" href="#work">Explore the work <span aria-hidden="true">↓</span></a><a class="text-link" href="/journal/">Read the journal ↗</a></div>
+  </div>
+  <aside class="current-focus" aria-labelledby="focus-title">
+    <p class="eyebrow">Current focus / October 2026</p>
+    <h2 id="focus-title">From individual interactions to collective outcomes.</h2>
+    <p>Building Hiyal’s Rust simulation engine and using it in Social Emergence Lab to explore questions about social emergence.</p>
+    <div class="focus-links"><a href="https://github.com/davletovb/hiyal">The engine ↗</a><a href="https://github.com/davletovb/social-emergence-lab">The research ↗</a></div>
+  </aside>
+</section>
 
-Data Science | Python | Sociology
-------------------------------------
+<section id="work" class="section" aria-labelledby="research-title">
+  <header class="section-heading"><span class="section-number" aria-hidden="true">01 /</span><h2 id="research-title">Simulation &amp;<br>social research</h2><p class="section-description">Tools to make experiments reproducible. Research to connect social questions with models and inspectable evidence.</p></header>
+  <div class="research-grid">
+    <article class="project project-primary">
+      <span class="status">Experimental Rust engine</span>
+      <h3>Hiyal</h3>
+      <p>A Rust engine for agent-based simulation and experimentation. Rebuilt from the earlier Neva project around reproducibility, explicit model boundaries, and research workflows.</p>
+      <ul class="project-points"><li>Deterministic scheduling and event replay</li><li>A Rust API and CLI for running experiments</li><li>Parameter sweeps and paired counterfactual forks</li></ul>
+      <div class="artifact-list" aria-label="Research output formats"><code>events.jsonl</code><code>metrics.csv</code><code>manifest.json</code></div>
+      <div class="project-links"><a href="https://github.com/davletovb/hiyal">Source &amp; documentation ↗</a><a href="/journal/hiyal-rust/">Why Rust? →</a></div>
+    </article>
+    <article class="project">
+      <span class="status">Exploratory research</span>
+      <h3>Social Emergence Lab</h3>
+      <p>A research workspace for studying how social outcomes emerge from interactions between agents. The protocols, models, experiments, and evidence live alongside the questions that motivate them.</p>
+      <p>Current work explores reinforcement, inequality, reputation, and opportunity networks. Hiyal provides the engine; the lab owns the research.</p>
+      <div class="research-path" aria-label="Research process"><span>Theory</span><span aria-hidden="true">→</span><span>Simulation</span><span aria-hidden="true">→</span><span>Evidence</span></div>
+      <p>Early experiments are exploratory benchmarks and pilots. They establish a basis for investigation rather than findings about human societies.</p>
+      <div class="project-links"><a href="https://github.com/davletovb/social-emergence-lab">Explore the lab ↗</a><a href="/journal/simulation-and-evidence/">Research approach →</a></div>
+    </article>
+  </div>
+</section>
 
-🧠 Currently, my passion for learning and problem-solving is being channeled into the development of [Neva](https://github.com/davletovb/neva), a Python library for multi-agent systems, specifically designed for large language models (LLM). The library is intended to be easy to use, intuitive, and flexible, making it simple to create AI agents and simulations. It will support various use cases and is inspired by the Mesa library.   
-📝  [Journal](https://behruz.me/journal): notes and updates about my ongoing projects  
-🌍  Location: Central Asia  
-🖥️  Portfolio: [github](https://github.com/davletovb)  
-✉️  Contact: [hi@behruz.me](mailto:hi@behruz.me)  
+<section class="section" aria-labelledby="ai-title">
+  <header class="section-heading"><span class="section-number" aria-hidden="true">02 /</span><h2 id="ai-title">AI infrastructure<br>&amp; everyday tools</h2><p class="section-description">Reusable infrastructure beneath focused applications for reading, writing, browsing, and reasoning with multiple models.</p></header>
+  <article class="runtime">
+    <div><p class="eyebrow">Shared infrastructure · Pre-1.0</p><h3>Seatline</h3><p>A reusable Rust runtime and native companion for AI provider execution: process management, streaming, scheduling, and app-scoped access.</p><div class="project-links"><a href="https://github.com/davletovb/seatline">Explore Seatline ↗</a><a href="/journal/one-companion-many-apps/">Architecture note →</a></div></div>
+    <div class="runtime-detail"><p class="eyebrow">One companion, multiple applications</p><div class="consumer-list">TabBeam · Lineleaf · Sharh</div><p>Each app owns its experience. Seatline handles shared provider execution.</p></div>
+  </article>
+  <div class="apps-grid">
+    <article class="app"><div><h3>Sharh <span>Read with the source in view</span></h3><p>A browser reading assistant for examining summaries, arguments, and structure, with paragraph references that let you check the reading against the text.</p><small>In development · Reading &amp; analysis</small></div><a class="app-arrow" href="https://github.com/davletovb/sharh" aria-label="Sharh source and documentation">↗</a></article>
+    <article class="app"><div><h3>Lineleaf <span>Clearer writing. Still your words.</span></h3><p>A browser writing assistant for corrections and rewrites, with explicit acceptance and undo, conservative editing, and attention to preserving meaning.</p><small>Development prototype · Writing</small></div><a class="app-arrow" href="https://github.com/davletovb/Lineleaf" aria-label="Lineleaf source and documentation">↗</a></article>
+    <article class="app"><div><h3>TabBeam <span>AI where you’re browsing</span></h3><p>Ask about the tab or selection you explicitly share, then continue the conversation in a fuller workspace when the question needs more room.</p><small>In development · Browser assistance</small></div><a class="app-arrow" href="https://github.com/davletovb/TabBeam" aria-label="TabBeam source and documentation">↗</a></article>
+    <article class="app"><div><h3>Shoora <span>Currently published as Conclave</span></h3><p>A local-first workspace for comparing, debating, critiquing, and synthesizing responses from multiple AI models through explicit workflows.</p><small>In development · Multi-model reasoning</small></div><a class="app-arrow" href="https://github.com/davletovb/conclave" aria-label="Shoora source, currently named Conclave">↗</a></article>
+  </div>
+</section>
 
-### Projects
+<section class="section" aria-labelledby="learning-title">
+  <header class="section-heading"><span class="section-number" aria-hidden="true">03 /</span><h2 id="learning-title">Learning<br>by doing</h2><p class="section-description">A place to apply adaptive interfaces and AI feedback to the sustained, ordinary work of learning.</p></header>
+  <article class="learning">
+    <div><span class="status">In development</span><h3>BandUp</h3><p>An IELTS preparation project spanning Listening, Reading, Writing, and Speaking. Diagnostics, focused practice, and review help turn broad goals into manageable daily sessions.</p><p>Studio explores a more structured, adaptive learning workspace on the same backend. The work brings together product design, assessment, and AI-assisted feedback.</p><div class="project-links"><a href="/journal/building-bandup/">Read the project note →</a></div></div>
+    <div class="learning-loop" aria-label="BandUp learning loop"><div class="loop-step"><span class="step-number">01</span><div><strong>Find the next useful step</strong><p>Use diagnostic signals to focus practice.</p></div></div><div class="loop-step"><span class="step-number">02</span><div><strong>Practice with purpose</strong><p>Work through targeted drills and full tasks.</p></div></div><div class="loop-step"><span class="step-number">03</span><div><strong>Return, review, adapt</strong><p>Connect feedback and review to the next session.</p></div></div></div>
+  </article>
+</section>
 
-2023: [Simulation](https://github.com/davletovb/simulation-app) – AI-assisted political simulation game  
-2023: [IntelliBot](https://github.com/davletovb/intellibot) – AI assistant for messaging platforms  
-2022: [ClearSky](https://clearsky.streamlit.app) – Forecasting the Air Quality Index for major Canadian cities   
-2022: [Prime](https://github.com/davletovb/prime) – NLP-powered document Question & Answering system  
-2020: [Accord](https://github.com/davletovb/accord) – Twitter user matching tool using NLP and ML   
-2020: [English tests](https://t.me/englishprep_bot) – A Telegram bot designed to help users practice English through tests  
+<section class="section" aria-labelledby="writing-title">
+  <header class="writing-heading"><div><p class="eyebrow">Field notes / Engineering &amp; research</p><h2 id="writing-title">From the journal</h2></div><a class="text-link" href="/journal/">All entries ↗</a></header>
+  {% include recent-notes.html %}
+</section>
 
+<section id="about" class="section about" aria-labelledby="about-title">
+  <div><p class="eyebrow">A little context</p><h2 id="about-title">Engineering questions.<br>Sociological curiosity.</h2><p>I’m based in Central Asia. My work connects practical software development with questions about learning, coordination, institutions, and how technology shapes social life.</p></div>
+  <div><p>Alongside building, I’m interested in legibility, algorithmic governance, and the history of information infrastructure, including Uzbek script reform. Mentoring students in Central Asia is another thread in that work.</p><p>The tools change with the problem. My current projects work across:</p><div class="toolbox" aria-label="Current tools"><span>Rust</span><span>TypeScript</span><span>Python</span><span>React</span><span>PostgreSQL</span><span>Cloudflare</span><span>SQL</span></div>
+    <details class="earlier"><summary>Earlier work · 2020–2023</summary><ul><li><a href="https://github.com/davletovb/simulation-app">Simulation</a> — AI-assisted political simulation, 2023</li><li><a href="https://github.com/davletovb/intellibot">IntelliBot</a> — AI assistant for messaging platforms, 2023</li><li><a href="https://github.com/davletovb/clearsky">ClearSky</a> — air quality forecasting, 2022</li><li><a href="https://github.com/davletovb/prime">Prime</a> — document question answering, 2022</li><li><a href="https://github.com/davletovb/accord">Accord</a> — NLP-based Twitter user matching, 2020</li><li><a href="https://t.me/englishprep_bot">English tests</a> — a Telegram practice bot, 2020</li></ul></details>
+  </div>
+</section>
+<section class="contact-strip" aria-label="Contact"><p>Working on a related question?</p><a href="mailto:hi@behruz.me">Let’s compare notes. ↗</a></section>
 
-### Skills
-
-<img align = 'left' alt = 'Python' width='36px' src="https://user-images.githubusercontent.com/55111154/100546857-8ba9c700-3289-11eb-9627-ae469441946b.png"/>
-
-<img align="left" alt="Git" width="32px" src= "https://user-images.githubusercontent.com/55111154/100549956-74280980-329c-11eb-8b47-62b3ea97e5ca.png"/>
-
-<img align="left" alt="VSCode" width="36px" src= "https://user-images.githubusercontent.com/55111154/100549504-41304680-3299-11eb-811c-570aae79deba.png"/>
-
-<img align="left" alt="Pandas" width="36px" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7YWmxNmbuzSB7RyPFlM99xnJMAre6eEj1OhL9EYo&s"/>
-
-<img align="left" alt="NumPy" width="36px" src= "https://user-images.githubusercontent.com/67586773/105040771-43887300-5a88-11eb-9f01-bee100b9ef22.png"/>
-
-<img align="left" alt="SQL" width="36px" src= "https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png"/>
-
-<img align="left" alt="Sklearn" width="36px" src= "https://e7.pngegg.com/pngimages/309/384/png-clipart-scikit-learn-python-computer-icons-scikit-machine-learning-learning-text-orange-thumbnail.png"/>
-
-<img align="left" alt="Streamlit" width="36px" src= "https://user-images.githubusercontent.com/88608935/187243256-b5b07944-acca-44e4-b1f5-e78e1d0d9376.png"/>   
-<br/>
-
-### Socials
-
-<p align="left"> <a href="https://www.github.com/davletovb" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/behruz-davletov/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> </p>

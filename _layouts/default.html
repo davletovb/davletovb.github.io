@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.home %}{{ site.title | escape }}{% else %}{{ page.title | escape }} · Behruz{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#123e31">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <meta property="og:type" content="{% if page.kind == 'note' %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="Behruz — Engineer × Sociologist">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+</head>
+<body class="{{ page.body_class | default: 'page' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Behruz, home"><span class="monogram" aria-hidden="true">b.</span><span>Behruz<span class="wordmark-detail">Engineer × sociologist</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/#work' | relative_url }}">Work</a>
+      <a href="{{ '/journal/' | relative_url }}"{% if page.journal %} aria-current="page"{% endif %}>Journal</a>
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a class="nav-contact" href="mailto:hi@behruz.me">Say hello <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    {% if page.kind == 'note' %}
+    <article class="note">
+      <a class="back-link" href="{{ '/journal/' | relative_url }}">← All journal entries</a>
+      <header class="note-header">
+        <p class="eyebrow">{{ page.category }} <span aria-hidden="true">/</span> <time datetime="{{ page.note_date }}">{{ page.display_date }}</time></p>
+        <h1>{{ page.title }}</h1>
+        <p class="note-deck">{{ page.description }}</p>
+      </header>
+      <div class="prose">{{ content }}</div>
+      <div class="note-end"><a href="{{ '/#work' | relative_url }}">Explore the projects →</a><a href="mailto:hi@behruz.me">Discuss this note ↗</a></div>
+    </article>
+    {% else %}
+    {{ content }}
+    {% endif %}
+  </main>
+  <footer class="site-footer wrap">
+    <p>Behruz <span aria-hidden="true">·</span> Engineer × sociologist <span class="footer-location">· Central Asia</span></p>
+    <nav aria-label="Elsewhere"><a href="https://github.com/davletovb">GitHub ↗</a><a href="https://www.linkedin.com/in/behruz-davletov/">LinkedIn ↗</a><a href="mailto:hi@behruz.me">Email ↗</a></nav>
+  </footer>
+</body>
+</html>

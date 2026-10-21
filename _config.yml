@@ -1,1 +1,11 @@
-title: Hi 👋 My name is Behruz
+title: Behruz — Engineer × Sociologist
+description: AI tools, Rust infrastructure, and reproducible agent-based research. Selected projects and field notes by Behruz.
+url: https://behruz.me
+baseurl: ""
+timezone: Asia/Tashkent
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
+
