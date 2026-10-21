@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Journal
-description: Notes on AI tools, Rust infrastructure, social simulation, and learning products, with an archive of earlier work.
+description: One continuous journal of AI engineering, social simulation, experiments and earlier work, from 2022 to today.
 permalink: /journal/
 journal: true
 body_class: journal-page
@@ -16,11 +16,7 @@ body_class: journal-page
   {% include recent-notes.html %}
 </section>
 
-<header class="archive-intro">
-  <p class="eyebrow">Earlier work</p>
-  <h2 id="archive">Archive · 2022–2023</h2>
-  <p>These entries are preserved from their original publication dates. Project names, tools, and plans reflect that time; the <a href="/#work">homepage</a> describes current work.</p>
-</header>
+<p class="journal-continuity">Keep reading through the years. The earlier entries below remain in their original wording and publication order, alongside newer notes in the same journal.</p>
 
 ## AI-Driven Political Simulation Game: Filling the Gaps in Interactive Decision-Making
 July 26, 2023

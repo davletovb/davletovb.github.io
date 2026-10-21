@@ -238,3 +238,27 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   .current-focus { display: none; }
   .hero { display: block; }
 }
+
+/* Case studies: substantive context before tool badges. */
+.case-study { max-width: 920px; margin: 0 auto; padding: 52px 0 84px; }
+.case-header { margin-top: 45px; }
+.case-header h1 { font-size: clamp(3.5rem, 7vw, 6.2rem); margin: 13px 0 23px; overflow-wrap: anywhere; }
+.case-deck { font-size: clamp(1.15rem, 2.3vw, 1.5rem); line-height: 1.6; color: var(--muted); max-width: 720px; }
+.case-meta { display: flex; flex-wrap: wrap; gap: 12px 35px; font-size: 13px; color: var(--muted); margin: 28px 0 29px; }
+.case-meta strong { color: var(--ink); font-weight: 600; margin-right: 8px; }
+.case-diagram { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: #e8ece3; border-radius: 5px; }
+.case-content { max-width: 740px; margin: 42px auto 0; }
+.case-content h2 { margin-top: 49px; }
+.case-content a { text-decoration-color: var(--gold); }
+.case-content table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.case-content td, .case-content th { text-align: left; border-bottom: 1px solid var(--line); padding: 11px 12px 11px 0; }
+.case-content th { font-weight: 600; }
+.case-content p, .case-content li { overflow-wrap: anywhere; }
+.journal-continuity { border-top: 1px solid var(--line); margin: 22px 0 45px; padding: 25px 0 0; color: var(--muted); max-width: 720px; font-size: 14px; }
+@media (max-width:720px) {
+  .case-study { padding: 31px 0 60px; }
+  .case-header { margin-top: 30px; }
+  .case-header h1 { font-size: clamp(2.9rem, 12vw, 4rem); }
+  .case-meta { flex-direction: column; gap: 7px; }
+  .case-content { margin-top: 25px; }
+}
