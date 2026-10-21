@@ -1,0 +1,24 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+{% assign recent_notes = site.pages | where: "kind", "note" | sort: "note_date" | reverse %}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Behruz · Journal</title>
+  <subtitle>AI engineering, computational social science, and notes from building.</subtitle>
+  <id>{{ '/journal/' | absolute_url }}</id>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/journal/' | absolute_url }}"/>
+  <updated>{% if recent_notes.size > 0 %}{{ recent_notes.first.note_date | date: "%Y-%m-%dT00:00:00+05:00" }}{% else %}2026-10-21T00:00:00+05:00{% endif %}</updated>
+  <author><name>Behruz</name></author>
+  {% for entry in recent_notes %}
+  <entry>
+    <title>{{ entry.title | xml_escape }}</title>
+    <link href="{{ entry.url | absolute_url }}"/>
+    <id>{{ entry.url | absolute_url }}</id>
+    <published>{{ entry.note_date | date: "%Y-%m-%dT00:00:00+05:00" }}</published>
+    <updated>{{ entry.note_date | date: "%Y-%m-%dT00:00:00+05:00" }}</updated>
+    <summary>{{ entry.description | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>
