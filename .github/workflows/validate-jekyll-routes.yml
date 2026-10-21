@@ -1,0 +1,40 @@
+name: Validate Jekyll project routes
+
+on:
+  pull_request:
+    paths:
+      - 'projects/**'
+      - 'journal/**'
+      - 'index.md'
+      - 'journal.md'
+      - 'journal-redirect.html'
+      - '_layouts/**'
+      - '_config.yml'
+      - '_scripts/check_pages.rb'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/**'
+      - 'journal/**'
+      - 'index.md'
+      - 'journal.md'
+      - 'journal-redirect.html'
+      - '_layouts/**'
+      - '_config.yml'
+      - '_scripts/check_pages.rb'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-routes-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate YAML front matter and linked routes
+        run: ruby _scripts/check_pages.rb
