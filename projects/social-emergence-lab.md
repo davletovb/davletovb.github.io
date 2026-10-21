@@ -9,7 +9,7 @@ status: Exploratory studies · No confirmatory finding
 stack: Rust · Hiyal · CSV · Mathematical baselines
 source_url: https://github.com/davletovb/social-emergence-lab
 diagram: /assets/diagrams/social-emergence.svg
-diagram_alt: Diagram: theory and analytical baselines feed paired experiments, then validated exploratory outputs.
+diagram_alt: "Diagram: theory and analytical baselines feed paired experiments, then validated exploratory outputs."
 image: https://opengraph.githubassets.com/1/davletovb/social-emergence-lab
 ---
 ## The research question

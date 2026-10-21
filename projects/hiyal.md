@@ -9,7 +9,7 @@ status: Experimental · Unpublished
 stack: Rust · CLI · JSONL · CSV
 source_url: https://github.com/davletovb/hiyal
 diagram: /assets/diagrams/hiyal.svg
-diagram_alt: Diagram: defined worlds and policies feed a Rust engine, which produces verified runs and open outputs.
+diagram_alt: "Diagram: defined worlds and policies feed a Rust engine, which produces verified runs and open outputs."
 image: https://github.com/user-attachments/assets/58c57917-5867-4b9a-ba50-847a2c7fe74d
 ---
 ## Why I built it

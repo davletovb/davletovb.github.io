@@ -9,7 +9,7 @@ status: Pre-1.0 · API may change
 stack: Rust · IPC · CLI adapters · Benchmark harness
 source_url: https://github.com/davletovb/seatline
 diagram: /assets/diagrams/seatline.svg
-diagram_alt: Diagram: Sharh, Lineleaf and TabBeam use a shared Seatline companion to reach AI provider runtimes.
+diagram_alt: "Diagram: Sharh, Lineleaf and TabBeam use a shared Seatline companion to reach AI provider runtimes."
 image: https://opengraph.githubassets.com/1/davletovb/seatline
 ---
 ## The problem
