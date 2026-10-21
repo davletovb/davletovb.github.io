@@ -1,7 +1,6 @@
 ---
 title: From a social question to inspectable evidence
 description: How Social Emergence Lab uses agent-based models while keeping exploratory results and empirical claims apart.
-date: 2026-10-21 12:03:00 +0500
 permalink: /journal/simulation-and-evidence/
 ---
 [Social Emergence Lab](https://github.com/davletovb/social-emergence-lab) is where I use agent-based models to ask sociological questions. It is separate from [Hiyal](https://github.com/davletovb/hiyal) on purpose: Hiyal is the engine, and the lab owns the questions, protocols, models and evidence.

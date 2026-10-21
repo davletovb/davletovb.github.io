@@ -1,7 +1,6 @@
 ---
 title: Rebuilding Hiyal around reproducibility
 description: Why my simulation library Neva became Hiyal, a Rust engine, and what reproducibility means inside it.
-date: 2026-10-21 12:04:00 +0500
 permalink: /journal/hiyal-rust/
 ---
 [Hiyal](https://github.com/davletovb/hiyal) began as Neva, my Python library for multi-agent simulations with language models. It is now a new engine written in Rust. It is not a port: the Python version is frozen on an archive branch, and the Rust engine has its own design.

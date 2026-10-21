@@ -1,7 +1,6 @@
 ---
 title: Designing NineStride's learning loop
 description: NineStride is an IELTS preparation app built around one question, what the learner should do next.
-date: 2026-10-21 12:01:00 +0500
 permalink: /journal/ninestride/
 ---
 NineStride is an IELTS preparation app covering Listening, Reading, Writing and Speaking. It runs as a Telegram Mini App, with a web version, and combines diagnostics, short drills, full tasks, review and AI feedback.

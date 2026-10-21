@@ -1,7 +1,6 @@
 ---
 title: One companion, several AI applications
 description: Seatline separates shared provider execution from the reading, writing, browsing and reasoning tools built on top of it.
-date: 2026-10-21 12:02:00 +0500
 permalink: /journal/one-companion-many-apps/
 ---
 Sharh, Lineleaf, TabBeam and Shoora do different jobs: reading, writing, asking about a web page, and comparing models. Underneath, they need the same plumbing: find an installed AI provider, start a request, stream the output, cancel it, and recover when something fails.
