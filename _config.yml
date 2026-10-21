@@ -1,11 +1,17 @@
-title: Behruz — Engineer × Sociologist
-description: AI engineering, Rust infrastructure, and computational social science. Projects, research case studies and writing by Behruz.
+title: Behruz Davletov
+description: AI engineering and sociology. Projects and a journal by Behruz Davletov.
 url: https://behruz.me
-baseurl: ""
 timezone: Asia/Tashkent
 markdown: kramdown
 kramdown:
   input: GFM
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: note
 exclude:
   - README.md
-

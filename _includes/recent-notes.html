@@ -1,6 +1,0 @@
-{% assign recent_notes = site.pages | where: "kind", "note" | sort: "note_date" | reverse %}
-<ul class="writing-list">
-{% for entry in recent_notes limit: 8 %}
-  <li><a href="{{ entry.url | relative_url }}"><time datetime="{{ entry.note_date }}">{{ entry.note_date | date: "%d %b %Y" | upcase }}</time><span class="writing-title">{{ entry.title | escape }}<span class="writing-description">{{ entry.description | escape }}</span></span><span aria-hidden="true">↗</span></a></li>
-{% endfor %}
-</ul>
