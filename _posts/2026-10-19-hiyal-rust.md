@@ -28,6 +28,6 @@ The same boundary keeps the engine generic. Research questions live in a separat
 
 ## Where it stands
 
-The current stage covers restoring long event logs, restart tests with corrupt or hostile input, and release checks across platforms. Hiyal is still unpublished and its release gates are not yet certified. Any claim that the Rust engine is faster than the old Python one will wait for comparable measurements.
+The current stage covers restoring long event logs, restart tests with corrupt or hostile input, and release checks across platforms. Since then, the engine has gained per-phase benchmarks that record where each number came from, and it now stages and replays events in place instead of copying the world. Hiyal is still unpublished and its release gates are not yet certified. Any claim that the Rust engine is faster than the old Python one will wait for comparable measurements.
 
 [Source and documentation](https://github.com/davletovb/hiyal)

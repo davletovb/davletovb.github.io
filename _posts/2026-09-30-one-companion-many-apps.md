@@ -28,6 +28,6 @@ A slow answer can come from app startup, provider preparation, the model itself,
 
 ## Where it stands
 
-Seatline is pre-1.0, and apps pin it to an exact commit. Sharh has its readers, analysis engine and evaluation harness in place, with live quality checks still to do. Shoora's web app and its four providers work. TabBeam and Lineleaf are at the foundation stage.
+Seatline is pre-1.0, and apps pin it to an exact commit. Sharh has its readers, analysis engine and evaluation harness in place, with live quality checks still to do. Shoora's web app and its four providers work, and its models can now search the web and cite sources through Seatline. Recent Seatline work keeps app connections alive through bursts of streamed output and network stalls. TabBeam and Lineleaf are at the foundation stage.
 
 [Seatline's architecture and companion](https://github.com/davletovb/seatline)
