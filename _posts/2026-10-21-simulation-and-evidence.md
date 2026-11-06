@@ -5,7 +5,7 @@ permalink: /journal/simulation-and-evidence/
 ---
 [Social Emergence Lab](https://github.com/davletovb/social-emergence-lab) is where I use agent-based models to ask sociological questions. It is separate from [Hiyal](https://github.com/davletovb/hiyal) on purpose: Hiyal is the engine, and the lab owns the questions, protocols, models and evidence.
 
-The questions are about how individual interactions turn into collective patterns. The current ones concern cumulative advantage: when past outcomes shape future opportunities, how unequal does a society become, and what can correct it?
+The questions are about how individual interactions turn into collective patterns, and about a methodological question underneath: when can different explanations of the same pattern actually be told apart?
 
 ## Start with a known baseline
 
@@ -13,7 +13,15 @@ Experiment 001 uses a Pólya urn, a well-understood model of reinforcement in wh
 
 ## Reputation or opportunity?
 
-Experiment 002, still a candidate, asks a sharper question. When a bad reputation locks someone out, does it help more to correct the reputation or to repair their access to opportunity networks? The design crosses the two interventions in a paired 2×2. The first Rust version passed replay and negative-control tests. The next round of validation added independent probability checks, controls for network mixing and turnover, and graph benchmarks.
+Experiment 002 asks a sharper question. When a bad reputation locks someone out, and the reputation is later corrected, does the disadvantage keep regenerating, or does it simply fade as inherited opportunities wear off?
+
+In the simulated societies studied so far, the answer leans toward fading. In 36 paired societies, a late gap in access remained, but almost all of it came from network links that existed before the correction. The part coming from new links and belief-driven choices was close to zero. A larger follow-up, 432 societies across nine conditions, found no condition in which the disadvantage was actively regenerated. The defensible reading is slow relaxation of an inherited network, not lasting lock-in. It is a negative result, and worth publishing as one.
+
+## Which mechanism produced this?
+
+Experiment 003 turns to cooperation. It builds six synthetic explanations for why people cooperate: material fines, stable preferences, conditional cooperation, sorting by type, learning about others' beliefs, and reinforcement by context. The question is which of them can be distinguished using only what an observer would see: who was matched with whom, the fines, the actions and the payoffs.
+
+Part of the answer is already clear: some explanations contain others. Any pattern produced by fines alone can also be produced by each of the other five, so one observed history can legitimately have several explanations. The goal is therefore to recover the set of explanations a history is consistent with, not to force a single label. A first pilot of 24 simulated societies runs and replays, and there are candidate mathematical arguments that separate several pairs of explanations. Those arguments still need an independent check, and some pairs remain open.
 
 ## Keep the claim the size of the evidence
 
@@ -21,8 +29,8 @@ Deterministic replay shows what computation happened. Negative controls check wh
 
 So everything so far is exploratory. Nothing has been preregistered, and there is no confirmatory or empirical finding yet.
 
-## One open task
+## Open tasks
 
-The full original archive for Experiment 001 is sealed with SHA-256 hashes but currently stored as a GitHub Actions artifact, which expires in January 2027. The hashes are in Git, so a preserved copy can be checked against them, but the archive still needs permanent storage.
+Some original evidence still needs permanent storage. Experiment 002's first and last rounds of raw data are published as release files, but Experiment 001's sealed archive and the Experiment 003 pilot sit in GitHub Actions storage, which expires. Their hashes are in Git, so a preserved copy can be checked against them.
 
 [Protocols, experiments and evidence](https://github.com/davletovb/social-emergence-lab)
